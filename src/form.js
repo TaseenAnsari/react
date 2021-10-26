@@ -26,7 +26,6 @@ function Header() {
             <h2 className="text-center">Good Work!</h2>
             <ProgressBar className="bg-danger p-2 text-white" style={{width:second+3+"%",height:10+"%"}}>{second} Sec</ProgressBar><br/>
             <ProgressBar className="bg-success p-2 text-white" style={{width:minute+3+"%",height:10+"%"}}>{minute} Min</ProgressBar><br/>
-            <ProgressBar className="bg-primary p-2 text-white" style={{width:hour+3+"%",height:10+"%"}}>{hour} Hr</ProgressBar><br/>
             </div>   
     };
     
