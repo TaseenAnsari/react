@@ -1,12 +1,10 @@
 import './App.css';
 import Header from './form';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-function App() {
+function App(props) {
   return (
     <>
-      <h1>Demo App</h1>
-      <Header name="Taseen Ansari" />
+      <Header name={props.time} />
     </>
     
   );
